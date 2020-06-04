@@ -1,9 +1,12 @@
 $(document).ready(function() {
-  const over21 = confirm("Are you over 21? Click OK for yes or Cancel for no.");
+  let height = parseInt(prompt("How tall are you in cm?"));
 
-  if (over21) {
-    $('#drinks').show();
+  if (height >= 144.78 && height <= 195.65) {
+    $('#adult-rides').show();
+  } else if (height <= 144.78) {
+    $('#kids-rides').show();
   } else {
-    $('#under-21').show();
+    $('#tall').show();
+    $('#too-tall').show();
   }
 });
