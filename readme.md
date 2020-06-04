@@ -28,7 +28,7 @@ _Please let us know if you have any questions or suggestions_
 
 _HTML, CSS, Bootstrap, Javascript and jQuery_
 
-### License
+## License
 
 *MIT License*
 
