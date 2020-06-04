@@ -1,3 +1,16 @@
 #kids-rides, #adult-rides, #too-tall, #tall {
-  display: none;
+  display: ;
 }
+
+.yellow-background {
+  background-color:yellow;
+}
+
+.pink-background {
+  background-color: pink;
+}
+
+.green-background {
+  background-color: green;
+}
+
